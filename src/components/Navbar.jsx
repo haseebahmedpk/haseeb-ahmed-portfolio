@@ -22,8 +22,8 @@ export default function Navbar({ active, navLinks }) {
       <div className="navbar-inner">
         <div className="navbar-logo" onClick={() => scrollTo('home')} title="Go to top" role="button" tabIndex={0}>
           <span className="bracket"></span>
-          <span className="name">Huzaifa</span>
-          <span className="accent">Mumtaz</span>
+          <span className="name">Haseeb</span>
+          <span className="accent">Ahmed</span>
           <span className="bracket"></span>
         </div>
 

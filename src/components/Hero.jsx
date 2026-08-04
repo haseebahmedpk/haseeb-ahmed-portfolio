@@ -18,22 +18,22 @@ const SOCIALS = [
   {
     icon: <FaGithub />,
     label: 'GitHub',
-    href: 'https://github.com/Zaifa25',
+    href: 'https://github.com/haseebahmedpk',
   },
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/huzaifa-mumtaz-99b985343',
+    href: 'https://www.linkedin.com/in/haseeb-ahmed',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/huzaifamumtaz',
+    href: 'https://twitter.com/haseebahmed',
   },
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    href: 'mailto:huzaifamumtaz@example.com',
+    href: 'mailto:haseebahmed@example.com',
   },
 ]
 
@@ -93,9 +93,9 @@ export default function Hero() {
           <div style={{ animation: 'fadeInUp 0.8s ease both' }}>
 
 
-            <h1 className="hero-heading">
-              Hi, I'm
-              <span className="hero-name">Huzaifa Mumtaz</span>
+            <h1 className="hero-title">
+              <span className="hero-greeting">Hi, I'm </span>
+              <span className="hero-name">Haseeb Ahmed</span>
             </h1>
 
             <p className="hero-typewriter">
@@ -143,8 +143,8 @@ export default function Hero() {
               <div className="avatar-ring-outer" />
               <div className="avatar-circle">
                 <img
-                  src="/assets/profile.jpg"
-                  alt="Huzaifa Mumtaz — Full Stack Developer"
+                  src="/profile.jpg"
+                  alt="Haseeb Ahmed — Full Stack Developer"
                   loading="eager"
                   decoding="async"
                   width="400"

@@ -148,7 +148,7 @@ export default function About() {
                 <span style={{ paddingLeft: 28 }}>
                   <span style={{ color: '#F87171' }}>"name"</span>
                   <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#86EFAC' }}>"Muhammad Huzaifa Mumtaz"</span>
+                  <span style={{ color: '#86EFAC' }}>"Haseeb Ahmed"</span>
                   <span style={{ color: '#A8A29E' }}>,</span>
                 </span><br />
 

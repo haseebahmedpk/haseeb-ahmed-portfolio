@@ -4,20 +4,21 @@ const PROJECTS = [
     category: 'Web',
     desc: 'An intelligent conversational AI chatbot built for natural language processing and automated customer support workflows.',
     tech: ['React', 'Node.js', 'OpenAI', 'MongoDB'],
-    image: '/assets/project4.png',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80',
     gradient: 'linear-gradient(135deg, #0D0D0D, #191919)',
-    demo: 'https://github.com/Zaifa25/ChatBot-Huzaifa-Portfolio-.git',
-    github: 'https://github.com/Zaifa25/ChatBot-Huzaifa-Portfolio-.git',
+    demo: 'https://github.com/haseebahmedpk/ChatBot-Haseeb-Portfolio-.git',
+    github: 'https://github.com/haseebahmedpk/ChatBot-Haseeb-Portfolio-.git',
+    featured: true,
   },
   {
-    title: 'ZAIFA AI Assistant',
+    title: 'Haseeb AI Assistant',
     category: 'App',
     desc: 'A Flutter-based email automation assistant that enables users to send emails through voice or text commands using n8n workflows.',
     tech: ['Flutter', 'Dart', 'N8n', 'Webhook'],
     image: '/assets/project2.png',
     gradient: 'linear-gradient(135deg, #111111, #1C1C1C)',
-    demo: 'https://github.com/Zaifa25/ZAIFA-AI-Assistant.git',
-    github: 'https://github.com/Zaifa25/ZAIFA-AI-Assistant.git',
+    demo: 'https://github.com/haseebahmedpk/ZAIFA-AI-Assistant.git',
+    github: 'https://github.com/haseebahmedpk/ZAIFA-AI-Assistant.git',
   },
   {
     title: 'Echoes Of Isolation — GAME (FYP)',
@@ -27,7 +28,7 @@ const PROJECTS = [
     image: '/assets/project3.png',
     gradient: 'linear-gradient(135deg, #141414, #1F1F1F)',
     demo: 'https://zaifa25.github.io/Echoes-of-Isolation/',
-    github: 'https://github.com/Zaifa25/Echoes-of-Isolation.git',
+    github: 'https://github.com/haseebahmedpk/Echoes-of-Isolation.git',
   },
   {
     title: 'Echoes Of Isolation — Web',
@@ -37,7 +38,7 @@ const PROJECTS = [
     image: '/assets/project1.png',
     gradient: 'linear-gradient(135deg, #0F0F0F, #1A1A1A)',
     demo: 'https://zaifa25.github.io/Echoes-of-Isolation/',
-    github: 'https://github.com/Zaifa25/Echoes-of-Isolation.git',
+    github: 'https://github.com/haseebahmedpk/Echoes-of-Isolation.git',
   },
   {
     title: 'Friendly AI Chatbot',
@@ -47,7 +48,7 @@ const PROJECTS = [
     image: '/assets/project5.png',
     gradient: 'linear-gradient(135deg, #101010, #1A1A1A)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/Friendly-ChatBot.git',
+    github: 'https://github.com/haseebahmedpk/Friendly-ChatBot.git',
   },
   {
     title: 'Portfolio Website',
@@ -57,7 +58,7 @@ const PROJECTS = [
     image: '/assets/project6.png',
     gradient: 'linear-gradient(135deg, #0F0F0F, #181818)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/portfolio-HuzaifaMumtaz.git',
+    github: 'https://github.com/haseebahmedpk/haseeb-ahmed-portfolio.git',
   },
   {
     title: 'Hospital Management System',
@@ -67,7 +68,7 @@ const PROJECTS = [
     image: '/assets/project7.png',
     gradient: 'linear-gradient(135deg, #0A1628, #0D2137)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/Hospital-Management-System.git',
+    github: 'https://github.com/haseebahmedpk/Hospital-Management-System.git',
   },
   {
     title: 'QR Code Builder — Chrome Extension',
@@ -77,7 +78,7 @@ const PROJECTS = [
     image: '/assets/project8.png',
     gradient: 'linear-gradient(135deg, #120820, #1A0F2E)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/QR-Code-Builder-Chrome-Extension.git',
+    github: 'https://github.com/haseebahmedpk/QR-Code-Builder-Chrome-Extension.git',
   },
   {
     title: 'Google Maps Leads Extractor',
@@ -87,7 +88,7 @@ const PROJECTS = [
     image: '/assets/project9.png',
     gradient: 'linear-gradient(135deg, #061A0F, #0A2417)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/Goggle-Map-Leads-Extractor.git',
+    github: 'https://github.com/haseebahmedpk/Goggle-Map-Leads-Extractor.git',
   },
   {
     title: 'Image Downloader Extension',
@@ -97,7 +98,7 @@ const PROJECTS = [
     image: '/assets/project10.png',
     gradient: 'linear-gradient(135deg, #041418, #071E24)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/image-downloader-extension-.git',
+    github: 'https://github.com/haseebahmedpk/image-downloader-extension-.git',
   },
   {
     title: 'Website Color Picker',
@@ -107,7 +108,7 @@ const PROJECTS = [
     image: '/assets/project11.png',
     gradient: 'linear-gradient(135deg, #150D1E, #1E1028)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/Website-Color-Picker.git',
+    github: 'https://github.com/haseebahmedpk/Website-Color-Picker.git',
   },
   {
     title: 'n8n Google Sheet Automation',
@@ -117,7 +118,7 @@ const PROJECTS = [
     image: '/assets/project12.png',
     gradient: 'linear-gradient(135deg, #1A0E00, #261500)',
     demo: '#',
-    github: 'https://github.com/Zaifa25/n8n-google-sheet-automation.git',
+    github: 'https://github.com/haseebahmedpk/n8n-google-sheet-automation.git',
   },
 ]
 

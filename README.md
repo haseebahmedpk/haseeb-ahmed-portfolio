@@ -1,4 +1,4 @@
-# ⚡ Huzaifa Mumtaz — Developer Portfolio
+# ⚡ Haseeb Ahmed — Developer Portfolio
 
 > Modern, responsive, and animated developer portfolio showcasing projects in Full-Stack Web Development, AI Automation, and Mobile Applications.
 
@@ -59,8 +59,8 @@ Portfolio/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Zaifa25/portfolio-HuzaifaMumtaz.git
-   cd portfolio-HuzaifaMumtaz
+   git clone https://github.com/haseebahmedpk/haseeb-ahmed-portfolio.git
+   cd haseeb-ahmed-portfolio
    ```
 
 2. **Install dependencies:**
@@ -82,10 +82,10 @@ Portfolio/
 
 ## 🤝 Contact & Connect
 
-- **GitHub**: [@Zaifa25](https://github.com/Zaifa25)
-- **LinkedIn**: [Huzaifa Mumtaz](https://www.linkedin.com/in/huzaifa-mumtaz-99b985343)
-- **Portfolio**: [zaifa25.github.io/portfolio-HuzaifaMumtaz](https://zaifa25.github.io/portfolio-HuzaifaMumtaz/)
+- **GitHub**: [@haseebahmedpk](https://github.com/haseebahmedpk)
+- **LinkedIn**: [Haseeb Ahmed](https://www.linkedin.com/in/haseeb-ahmed)
+- **Portfolio**: [haseebahmedpk.github.io/haseeb-ahmed-portfolio](https://github.com/haseebahmedpk/haseeb-ahmed-portfolio)
 
 ---
 
-© 2026 Huzaifa Mumtaz. All rights reserved.
+© 2026 Haseeb Ahmed. All rights reserved.

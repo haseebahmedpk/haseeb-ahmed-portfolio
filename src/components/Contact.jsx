@@ -10,7 +10,7 @@ import SectionTitle from './SectionTitle'
 import '../styles/components.css'
 
 const CONTACT_INFO = [
-  { icon: '✉️', label: 'Email', value: 'huzaifamumtaz.work@gmail.com' },
+  { icon: '✉️', label: 'Email', value: 'haseebahmed.work@gmail.com' },
   { icon: '📞', label: 'Phone', value: '+92 3265415612' },
   { icon: '📍', label: 'Location', value: 'Islamabad, Pakistan' },
 ]
@@ -19,17 +19,17 @@ const SOCIALS = [
   {
     icon: <FaGithub />,
     label: 'GitHub',
-    href: 'https://github.com/Zaifa25',
+    href: 'https://github.com/HaseebAhmed',
   },
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/huzaifa-mumtaz-99b985343',
+    href: 'https://www.linkedin.com/in/haseeb-ahmed',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/huzaifamumtaz',
+    href: 'https://twitter.com/haseebahmed',
   },
 
 ]

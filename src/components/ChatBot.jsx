@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react'
 export default function ChatBot() {
   const [open, setOpen] = useState(false)
   const [messages, setMessages] = useState([
-    { from: 'bot', text: 'Hi there! 👋 I\'m Huzaifa\'s AI assistant. Ask me anything about his work, skills, or projects!' }
+    { from: 'bot', text: 'Hi there! 👋 I\'m Haseeb\'s AI assistant. Ask me anything about his work, skills, or projects!' }
   ])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)

@@ -13,22 +13,22 @@ const SOCIALS = [
   {
     icon: <FaGithub />,
     label: 'GitHub',
-    href: 'https://github.com/Zaifa25',
+    href: 'https://github.com/haseebahmedpk',
   },
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/huzaifa-mumtaz-99b985343',
+    href: 'https://www.linkedin.com/in/haseeb-ahmed',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/huzaifamumtaz',
+    href: 'https://twitter.com/haseebahmed',
   },
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    href: 'mailto:huzaifamumtaz@example.com',
+    href: 'mailto:haseebahmed@example.com',
   },
 ]
 export default function Footer() {
@@ -63,8 +63,8 @@ export default function Footer() {
           opacity: 0.7,
         }}>
           <span style={{ color: 'rgba(214,199,178,0.5)' }}></span>
-          <span style={{ color: 'var(--cream)' }}>HUZAIFA </span>
-          <span style={{ color: 'var(--cream)' }}>MUMTAZ</span>
+          <span style={{ color: 'var(--cream)' }}>HASEEB </span>
+          <span style={{ color: 'var(--cream)' }}>AHMED</span>
           <span style={{ color: 'rgba(214,199,178,0.5)' }}></span>
         </div>
 
@@ -103,7 +103,7 @@ export default function Footer() {
         <div style={{ width: '100%', height: 1, background: 'var(--border)', marginBottom: '1.8rem', opacity: 0.5 }} />
 
         <p style={{ color: 'var(--text-dim)', fontSize: '0.72rem', fontFamily: "'DM Mono', monospace", letterSpacing: '0.08em' }}>
-          © {new Date().getFullYear()} Huzaifa Mumtaz &nbsp;·&nbsp; Built with React &nbsp;·&nbsp; All rights reserved
+          © {new Date().getFullYear()} Haseeb Ahmed &nbsp;·&nbsp; Built with React &nbsp;·&nbsp; All rights reserved
         </p>
       </div>
     </footer>
