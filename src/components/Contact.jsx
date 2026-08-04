@@ -10,26 +10,26 @@ import SectionTitle from './SectionTitle'
 import '../styles/components.css'
 
 const CONTACT_INFO = [
-  { icon: '✉️', label: 'Email', value: 'haseebahmed.work@gmail.com' },
-  { icon: '📞', label: 'Phone', value: '+92 3265415612' },
-  { icon: '📍', label: 'Location', value: 'Islamabad, Pakistan' },
+  { icon: '✉️', label: 'Email', value: 'haseebahmedpk97@gmail.com' },
+  { icon: '📞', label: 'Phone', value: '+92 318 5403013' },
+  { icon: '📍', label: 'Location', value: 'Rawalpindi, Pakistan' },
 ]
 
 const SOCIALS = [
   {
     icon: <FaGithub />,
     label: 'GitHub',
-    href: 'https://github.com/HaseebAhmed',
+    href: 'https://github.com/haseebahmedpk',
   },
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/haseeb-ahmed',
+    href: 'https://www.linkedin.com/in/haseebahmedpk97',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/haseebahmed',
+    href: 'https://twitter.com/haseebahmedpk97',
   },
 
 ]
@@ -66,10 +66,15 @@ export default function Contact() {
   setLoading(true)   // ← ADD THIS
 
   try {
-    const res = await fetch('https://formspree.io/f/xgoqvggg', {
+    const payload = {
+      ...form,
+      access_key: import.meta.env.VITE_WEB3FORMS_KEY
+    };
+
+    const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify(form),
+      body: JSON.stringify(payload),
     })
     if (res.ok) {
       setSent(true)
@@ -171,6 +176,16 @@ export default function Contact() {
                   color: 'var(--cream)', fontWeight: 700, fontSize: '1.25rem', marginBottom: '0.5rem'
                 }}>Message Sent!</h3>
                 <p style={{ color: 'var(--text-muted)', fontWeight: 300, fontSize: '0.9rem' }}>I'll get back to you within 24 hours.</p>
+                <button 
+                  onClick={() => {
+                    setSent(false);
+                    setForm({ name: '', email: '', message: '' });
+                  }}
+                  className="btn-primary"
+                  style={{ marginTop: '2rem', justifyContent: 'center', width: '100%' }}
+                >
+                  Send Another Message
+                </button>
               </div>
             ) : (
               <form

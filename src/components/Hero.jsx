@@ -23,17 +23,17 @@ const SOCIALS = [
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/haseeb-ahmed',
+    href: 'https://www.linkedin.com/in/haseebahmedpk97',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/haseebahmed',
+    href: 'https://twitter.com/haseebahmedpk97',
   },
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    href: 'mailto:haseebahmed@example.com',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=haseebahmedpk97@gmail.com',
   },
 ]
 
@@ -78,6 +78,8 @@ function TypeWriter({ words }) {
 }
 
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
     <section id="home" className="hero">
       <div className="orb orb-1" />
@@ -114,9 +116,9 @@ export default function Hero() {
               >
                 View Projects →
               </button>
-              <a className="btn-outline" href="/assets/cv.pdf" download>
+              <button className="btn-outline" onClick={() => setIsModalOpen(true)}>
                 Download CV ↓
-              </a>
+              </button>
             </div>
 
             <div className="hero-socials">
@@ -167,6 +169,32 @@ export default function Hero() {
         </div>
         <span className="scroll-label">Scroll</span>
       </div>
+
+      {/* ── Modal ── */}
+      {isModalOpen && (
+        <div className="cv-modal-overlay" onClick={() => setIsModalOpen(false)}>
+          <div className="cv-modal-content cv-modal-large" onClick={e => e.stopPropagation()}>
+            <button className="cv-modal-close" onClick={() => setIsModalOpen(false)}>✕</button>
+
+            <div className="cv-modal-header">
+              <h2>Select a Document</h2>
+            </div>
+
+            <div className="cv-modal-body side-by-side">
+              <div className="cv-column">
+                <h3>Resume</h3>
+                <iframe src="/assets/Haseeb_Ahmed_Resume.pdf" className="cv-preview" title="Resume Preview"></iframe>
+                <a href="/assets/Haseeb_Ahmed_Resume.pdf" download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download Resume</a>
+              </div>
+              <div className="cv-column">
+                <h3>Europass CV</h3>
+                <iframe src="/assets/Haseeb_Ahmed_Europass_CV_1.pdf" className="cv-preview" title="CV Preview"></iframe>
+                <a href="/assets/Haseeb_Ahmed_Europass_CV_1.pdf" download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }

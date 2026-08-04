@@ -18,17 +18,17 @@ const SOCIALS = [
   {
     icon: <FaLinkedin />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/haseeb-ahmed',
+    href: 'https://www.linkedin.com/in/haseebahmedpk97',
   },
   {
     icon: <FaXTwitter />,
     label: 'Twitter',
-    href: 'https://twitter.com/haseebahmed',
+    href: 'https://twitter.com/haseebahmedpk97',
   },
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    href: 'mailto:haseebahmed@example.com',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=haseebahmedpk97@gmail.com',
   },
 ]
 export default function Footer() {
