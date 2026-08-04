@@ -9,7 +9,7 @@ const STATS = [
 ]
 
 const CARDS = [
-  { icon: '🎓', title: 'BSc Computer Science', sub: 'COMSATS University Islamabad · 2022–2026' },
+  { icon: '🎓', title: 'BSc Computer Science', sub: 'COMSATS University Islamabad, Wah Campus · 2022–2026' },
   { icon: '📜', title: 'Full Stack Certification', sub: 'Meta Professional Certificate · 2022' },
   { icon: '💼', title: 'Freelance Developer', sub: 'Self-employed · 2021–Present' },
   { icon: '🌐', title: 'Open Source Contributor', sub: 'React & Node.js ecosystem · 2022–Present' },
@@ -58,19 +58,17 @@ export default function About() {
               lineHeight: 1.25,
               letterSpacing: '-0.025em',
             }}>
-              Passionate{' '}
+              Architecting{' '}
               <span style={{ background: 'var(--gradient-warm)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
-                Developer
+                Autonomous AI
               </span>{' '}
-              & Problem Solver
+              to Personalize Global Education and Opportunity.
             </h3>
 
             <p style={{ color: 'var(--text-muted)', lineHeight: 1.95, marginBottom: '1rem', fontSize: '0.92rem', fontWeight: 300 }}>
-              I’m a Full-Stack Developer and AI Automation Enthusiast dedicated to transforming complex ideas into scalable, real-world digital solutions. As a Computer Science graduate from COMSATS University Islamabad, I specialize in building modern web applications, intelligent automation systems, and high-performance software solutions that deliver seamless user experiences.
-
-              My expertise spans frontend and backend development using HTML, CSS, Bootstrap, JavaScript, React, Next.js, PostgreSQL, MySQL, and REST APIs, along with AI-powered automation workflows using n8n and modern web technologies. I enjoy creating responsive interfaces, automation systems, chatbot solutions, and scalable applications with clean architecture, optimized performance, and user-focused design.
-
-              I’m passionate about continuous learning, solving real-world challenges, and leveraging emerging technologies to build innovative software that delivers measurable impact. I thrive in collaborative environments and am eager to contribute to teams developing cutting-edge web, automation, AI-driven, and cloud-based solutions.
+              Computer Science graduate with a research-driven interest in Artificial Intelligence, autonomous systems, and Artificial General Intelligence (AGI). Passionate about designing intelligent agents, AI automation, and machine learning solutions that solve complex real-world problems.
+              <br/><br/>
+              Skilled in Python, LangChain, machine learning, computer vision, and full-stack application development, with experience building AI-powered systems ranging from multi-agent platforms to intelligent vision-based applications. Committed to advancing AI through graduate studies, interdisciplinary research, and international collaboration, with the long-term goal of contributing to the development of safe, scalable, and human-centered intelligent systems.
             </p>
 
             {/* <p style={{ color: 'var(--text-muted)', lineHeight: 1.95, marginBottom: '2.5rem', fontSize: '0.92rem', fontWeight: 300 }}>
@@ -142,7 +140,7 @@ export default function About() {
               </div>
 
               {/* Code Body */}
-              <div style={{ padding: '28px 32px', fontSize: '0.88rem', lineHeight: 2 }}>
+              <div style={{ padding: '28px 16px', fontSize: '0.82rem', lineHeight: 2 }}>
                 <span style={{ color: '#A8A29E' }}>{'{'}</span><br />
 
                 <span style={{ paddingLeft: 28 }}>
@@ -155,28 +153,22 @@ export default function About() {
                 <span style={{ paddingLeft: 28 }}>
                   <span style={{ color: '#F87171' }}>"role"</span>
                   <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#86EFAC' }}>"CS Graduate"</span>
+                  <span style={{ color: '#86EFAC' }}>"AI & Full-Stack Developer"</span>
                   <span style={{ color: '#A8A29E' }}>,</span>
                 </span><br />
 
                 <span style={{ paddingLeft: 28 }}>
-                  <span style={{ color: '#F87171' }}>"university"</span>
+                  <span style={{ color: '#F87171' }}>"graduated from"</span>
                   <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#86EFAC' }}>"COMSATS University Islamabad"</span>
+                  <span style={{ color: '#86EFAC' }}>"COMSATS University Islamabad, Wah Campus"</span>
                   <span style={{ color: '#A8A29E' }}>,</span>
                 </span><br />
 
-                <span style={{ paddingLeft: 28 }}>
-                  <span style={{ color: '#F87171' }}>"semester"</span>
-                  <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#93C5FD' }}>8</span>
-                  <span style={{ color: '#A8A29E' }}>,</span>
-                </span><br />
 
                 <span style={{ paddingLeft: 28 }}>
                   <span style={{ color: '#F87171' }}>"location"</span>
                   <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#86EFAC' }}>"Islamabad, PK"</span>
+                  <span style={{ color: '#86EFAC' }}>"Rawalpindi, Pakistan"</span>
                   <span style={{ color: '#A8A29E' }}>,</span>
                 </span><br />
 
@@ -185,7 +177,7 @@ export default function About() {
                   <span style={{ color: '#A8A29E' }}>: [</span>
                 </span><br />
 
-                {['AI Automation', 'Full Stack Dev', 'DevOps'].map((item, i, arr) => (
+                {['Intelligent Agents', 'Generative AI', 'AI Automation', 'Computer Vision', 'Full-Stack Dev'].map((item, i, arr) => (
                   <span key={item} style={{ paddingLeft: 52, display: 'block' }}>
                     <span style={{ color: '#86EFAC' }}>"{item}"</span>
                     <span style={{ color: '#A8A29E' }}>{i < arr.length - 1 ? ',' : ''}</span>

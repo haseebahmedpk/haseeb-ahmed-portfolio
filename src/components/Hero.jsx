@@ -9,9 +9,9 @@ import '../styles/hero.css'
 import '../styles/components.css'
 
 const ROLES = [
-  'AI Automation',
-  'Web Developer',
-  'DevOps Enthusiast',
+  'AI Engineer',
+  'Automation Specialist',
+  'Frontend Developer',
 ]
 
 const SOCIALS = [
@@ -105,8 +105,7 @@ export default function Hero() {
             </p>
 
             <p className="hero-desc">
-              Computer Science graduate from COMSATS University Islamabad with a strong interest in AI Automation, Web Development, and DevOps. Passionate about building responsive web applications, automation workflows, and scalable software solutions that solve real-world problems.
-
+              Computer Science graduate with a research-driven interest in Artificial Intelligence, autonomous systems, and AGI. Skilled in Python, LangChain, machine learning, and full-stack application development.
             </p>
 
             <div className="hero-cta">
