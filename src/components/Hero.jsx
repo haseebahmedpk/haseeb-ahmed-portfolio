@@ -143,7 +143,7 @@ export default function Hero() {
               <div className="avatar-ring-outer" />
               <div className="avatar-circle">
                 <img
-                  src="/profile.jpg"
+                  src="/assets/profile.png"
                   alt="Haseeb Ahmed — Full Stack Developer"
                   loading="eager"
                   decoding="async"
