@@ -4,14 +4,13 @@ import SectionTitle from './SectionTitle'
 
 const ACHIEVEMENTS = [
   {
-    icon: '🏆',
-    position: '1st Position',
-    category: 'Computer Science Final Year Project Category',
-    event: 'COMSATS University Islamabad, Wah Campus — Open House & Job Fair, Spring 2026',
-    project: 'Echoes of Isolation – A Voice-Responsive Paranormal Horror Game',
-    description:
-      'Deeply honored to have received 1st place for our Final Year Project — a voice-responsive paranormal horror game that uses real-time speech recognition to drive immersive, adaptive gameplay experiences.',
-    tags: ['Game Development', 'Voice AI', 'Horror Genre', 'Unity'],
+    icon: '🥈',
+    position: '2nd Position',
+    category: 'Competitive Programming',
+    event: 'HITEC University Taxila — CodeWar Season II, Dec 2023',
+    project: 'Runner-Up in Competitive Programming',
+    description: 'Achieved 2nd Position in the CodeWar Season II programming competition, demonstrating problem-solving, algorithmic thinking, logical reasoning, and programming skills by solving competitive coding challenges under time constraints.',
+    tags: ['Competitive Programming', 'Algorithms', 'Problem Solving'],
   },
 ]
 
