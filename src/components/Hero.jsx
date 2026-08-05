@@ -153,8 +153,8 @@ export default function Hero() {
                   className="profile-image"
                 />
               </div>
-              <div className="floating-badge badge-react">Web Dev</div>
-              <div className="floating-badge badge-node">DevOps</div>
+              <div className="floating-badge badge-react">Machine Learning</div>
+              <div className="floating-badge badge-node">Gen AI & LLMs</div>
               <div className="floating-badge badge-mongo">AI Automation</div>
             </div>
           </div>
