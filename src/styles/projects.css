@@ -286,3 +286,27 @@ flex: 1;
   letter-spacing: 0.06em;
 }
 
+/* ─── Bento Box Grid ─── */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .bento-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .bento-item-featured {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
