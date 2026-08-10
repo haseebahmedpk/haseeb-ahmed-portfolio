@@ -9,7 +9,6 @@
   position: absolute;
   top: 0; right: 0;
   width: 350px; height: 350px;
-  background: radial-gradient(circle, rgba(214, 199, 178, 0.04), transparent 70%);
   pointer-events: none;
 }
 

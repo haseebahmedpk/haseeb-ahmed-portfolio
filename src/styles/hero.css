@@ -15,42 +15,6 @@
   z-index: 0;
 }
 
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(100px);
-  opacity: 0.06;
-  animation: drift 16s ease-in-out infinite;
-}
-
-.orb-1 {
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(214,199,178,0.8), transparent 70%);
-  top: -150px;
-  right: -120px;
-  animation-delay: 0s;
-}
-
-.orb-2 {
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(168,162,158,0.6), transparent 70%);
-  bottom: 80px;
-  left: -100px;
-  animation-delay: 5s;
-}
-
-.orb-3 {
-  width: 280px;
-  height: 280px;
-  background: radial-gradient(circle, rgba(245,241,232,0.4), transparent 70%);
-  top: 40%;
-  left: 40%;
-  animation-delay: 10s;
-  opacity: 0.03;
-}
-
 /* Fine grid */
 .grid-overlay {
   position: absolute;

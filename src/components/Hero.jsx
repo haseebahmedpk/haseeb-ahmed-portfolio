@@ -82,9 +82,6 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero">
-      <div className="orb orb-1" />
-      <div className="orb orb-2" />
-      <div className="orb orb-3" />
       <div className="grid-overlay" />
       <div className="hero-corner-deco" />
 
