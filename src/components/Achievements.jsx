@@ -12,6 +12,15 @@ const ACHIEVEMENTS = [
     description: 'Achieved 2nd Position in the CodeWar Season II programming competition, demonstrating problem-solving, algorithmic thinking, logical reasoning, and programming skills by solving competitive coding challenges under time constraints.',
     tags: ['Competitive Programming', 'Algorithms', 'Problem Solving'],
   },
+  {
+    icon: '🎓',
+    position: '3.44 CGPA',
+    category: 'Academic Excellence',
+    event: 'COMSATS University Islamabad, Wah Campus — 2026',
+    project: 'BSc Computer Science Graduation',
+    description: 'Successfully graduated with a high distinction of 3.44 CGPA. Developed DeepHunt AI as a final year project and specialized in agentic workflows and machine learning.',
+    tags: ['Computer Science', 'Distinction', 'DeepHunt AI'],
+  },
 ]
 
 export default function Achievements() {
@@ -124,7 +133,7 @@ export default function Achievements() {
                           textTransform: 'uppercase',
                         }}
                       >
-                        🥇 {ach.position}
+                        {ach.icon} {ach.position}
                       </span>
                       <span
                         style={{

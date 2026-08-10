@@ -64,6 +64,21 @@ const EXPERIENCES = [
       'Collaborated effectively within a team environment',
     ],
   },
+  {
+    role: 'BSc Computer Science',
+    company: 'COMSATS University Islamabad',
+    type: 'Education',
+    duration: 'Sept 2022 — June 2026',
+    status: 'past',
+    location: 'Wah Cantt, Pakistan',
+    stack: ['AI', 'Agentic Workflows', 'Machine Learning'],
+    description: 'Graduated with a degree in Computer Science, specializing in Artificial Intelligence, autonomous systems, and scalable full-stack development. Achieved a final CGPA of 3.44.',
+    highlights: [
+      'Specialized in AI automation, agentic workflows, and machine learning',
+      'Developed DeepHunt AI, a multi-agent AI platform as Final Year Project',
+      'Graduated with an excellent CGPA of 3.44',
+    ],
+  },
 ]
 
 

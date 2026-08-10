@@ -1,7 +1,7 @@
 import React from 'react'
 import useInView from '../hooks/useInView'
 import SectionTitle from './SectionTitle'
-import SKILLS from '../data/skills'
+import SKILLS from '../data/skills.jsx'
 import '../styles/skills.css'
 
 export default function Skills() {
@@ -23,7 +23,7 @@ export default function Skills() {
                 transition: `opacity 0.5s ease ${i * 0.07}s, transform 0.5s ease ${i * 0.07}s`,
               }}
             >
-              <span className="skill-icon">{skill.icon}</span>
+              <span className="skill-icon" style={{ color: skill.color }}>{skill.icon}</span>
               <span className="skill-name">{skill.name}</span>
               {/* Coloured glow on hover */}
               <div className="skill-glow" style={{ background: skill.color }} />

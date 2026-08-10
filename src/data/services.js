@@ -1,26 +1,24 @@
 const SERVICES = [
   {
+    icon: '🤖',
+    title: 'Agentic AI Development',
+    desc: 'Designing and building intelligent, multi-agent workflows using LangChain and LangGraph for complex decision-making and autonomous task orchestration.',
+  },
+  {
+    icon: '⚙️',
+    title: 'AI Business Automation',
+    desc: 'Streamlining operations by developing end-to-end AI workflows with n8n, Zapier, and custom API integrations for CRM, lead generation, and data entry.',
+  },
+  {
+    icon: '👁️',
+    title: 'Computer Vision & ML',
+    desc: 'Developing real-time vision systems including facial recognition, vehicle detection, and predictive modeling using Python, OpenCV, and machine learning algorithms.',
+  },
+  {
     icon: '💻',
-    title: 'Web Development',
-    desc: 'Full-stack web applications using Laravel, Bootstrap, JavaScript, and PHP — responsive, scalable, and fast.',
+    title: 'Full Stack Development',
+    desc: 'Building modern, cloud-ready web applications combining dynamic frontends (Next.js, React) with robust backends (FastAPI) and vector databases (PostgreSQL/pgvector).',
   },
-  {
-    icon: '📱',
-    title: 'AI Automation',
-    desc: 'Build intelligent automation workflows with n8n, OpenAI, and custom AI integrations to eliminate repetitive tasks.',
-  },
-  {
-    icon: '⚛️',
-    title: 'Mobile App Development',
-    desc: 'Cross-platform mobile apps with Flutter and Firebase — smooth, performant, and beautiful on iOS & Android.',
-  },
- 
-  {
-    icon: '🔌',
-    title: 'DevOps Solutions',
-    desc: 'Linux server management, CI/CD pipeline setup, containerization, and cloud deployment for modern applications.',
-  },
- 
 ]
 
 export default SERVICES

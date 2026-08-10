@@ -14,18 +14,22 @@
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
 .skill-card {
+  flex: 0 0 calc(14.28% - 1rem); /* Exactly 7 items per row */
+  min-width: 130px;
+  aspect-ratio: 1 / 1; /* Makes the card a perfect square */
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 0.65rem;
+  justify-content: center; /* Centers content perfectly in the square */
+  gap: 1rem;
   padding: 1.5rem 1rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -44,7 +48,7 @@
 }
 
 .skill-icon {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   display: block;
   transition: transform 0.35s ease;
   opacity: 0.8;
@@ -56,6 +60,9 @@
 }
 
 .skill-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--text-dim);
@@ -85,21 +92,19 @@
 }
 
 @media (max-width: 900px) {
-  .skills-grid {
-    grid-template-columns: repeat(4, 1fr);
+  .skill-card {
+    flex: 1 1 calc(25% - 1rem);
   }
 }
 
 @media (max-width: 600px) {
-  .skills-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.75rem;
+  .skill-card {
+    flex: 1 1 calc(33.33% - 1rem);
   }
 }
 
 @media (max-width: 400px) {
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.65rem;
+  .skill-card {
+    flex: 1 1 calc(50% - 1rem);
   }
 }

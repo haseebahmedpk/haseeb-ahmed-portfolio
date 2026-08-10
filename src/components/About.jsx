@@ -5,7 +5,7 @@ import '../styles/components.css'
 
 const STATS = [
   { val: '10+', label: 'Projects Done' },
-  { val: '10+', label: 'GitHub Repos' },
+  { val: '3', label: 'Internships' },
 ]
 
 const CARDS = [
@@ -168,7 +168,7 @@ export default function About() {
                 <span style={{ paddingLeft: 28 }}>
                   <span style={{ color: '#F87171' }}>"location"</span>
                   <span style={{ color: '#A8A29E' }}>: </span>
-                  <span style={{ color: '#86EFAC' }}>"Rawalpindi, Pakistan"</span>
+                  <span style={{ color: '#86EFAC' }}>"Wah Cantt, Pakistan"</span>
                   <span style={{ color: '#A8A29E' }}>,</span>
                 </span><br />
 
