@@ -11,7 +11,7 @@ import '../styles/components.css'
 const ROLES = [
   'AI Engineer',
   'Automation Specialist',
-  'Frontend Developer',
+  'Full Stack Developer',
 ]
 
 const SOCIALS = [
@@ -92,7 +92,7 @@ export default function Hero() {
           <div style={{ animation: 'fadeInUp 0.8s ease both' }}>
 
 
-            <h1 className="hero-title">
+            <h1 className="hero-heading">
               <span className="hero-greeting">Hi, I'm </span>
               <span className="hero-name">Haseeb Ahmed</span>
             </h1>

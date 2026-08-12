@@ -91,7 +91,7 @@
   line-height: 1.05;
   letter-spacing: -0.03em;
   color: var(--cream);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-name {
@@ -105,10 +105,10 @@
 
 .hero-typewriter {
   font-family: 'DM Mono', monospace;
-  font-size: 0.92rem;
+  font-size: 1.2rem;
   color: var(--text-muted);
-  margin-bottom: 1.8rem;
-  min-height: 1.8rem;
+  margin-bottom: 2rem;
+  min-height: 2rem;
   letter-spacing: 0.04em;
 }
 
@@ -122,9 +122,9 @@
 .hero-desc {
   color: var(--text-muted);
   line-height: 1.9;
-  font-size: 0.92rem;
-  margin-bottom: 2.5rem;
-  max-width: 500px;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  max-width: 600px;
   font-weight: 300;
 }
 
@@ -150,8 +150,8 @@
 
 .avatar-container {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 420px;
+  height: 420px;
 }
 
 .avatar-ring {
@@ -213,8 +213,8 @@
   border: 1px solid var(--border);
   backdrop-filter: blur(16px);
   border-radius: 4px;
-  padding: 0.5rem 0.95rem;
-  font-size: 0.75rem;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-muted);
   white-space: nowrap;
@@ -401,14 +401,14 @@
   .available-badge { margin-left: auto; margin-right: auto; }
 
   .avatar-wrapper { order: -1; }
-  .avatar-container { width: 240px; height: 240px; }
+  .avatar-container { width: 320px; height: 320px; }
   .badge-react { left: -5%; }
   .badge-node { right: -5%; }
   .badge-mongo { left: 0; }
 }
 
 @media (max-width: 480px) {
-  .avatar-container { width: 200px; height: 200px; }
+  .avatar-container { width: 260px; height: 260px; }
   .hero-cta { flex-direction: column; align-items: center; }
   .hero-heading { font-size: clamp(2.2rem, 9vw, 3rem); }
 }
