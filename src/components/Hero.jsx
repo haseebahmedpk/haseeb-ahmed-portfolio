@@ -78,7 +78,6 @@ function TypeWriter({ words }) {
 }
 
 export default function Hero() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
   const base = import.meta.env.BASE_URL
 
   return (
@@ -113,9 +112,9 @@ export default function Hero() {
               >
                 View Projects →
               </button>
-              <button className="btn-outline" onClick={() => setIsModalOpen(true)}>
+              <a href={`${base}assets/haseeb_ahmed_cv.pdf`} download="haseeb_ahmed_cv.pdf" className="btn-outline">
                 Download CV ↓
-              </button>
+              </a>
             </div>
 
             <div className="hero-socials">
@@ -167,31 +166,6 @@ export default function Hero() {
         <span className="scroll-label">Scroll</span>
       </div>
 
-      {/* ── Modal ── */}
-      {isModalOpen && (
-        <div className="cv-modal-overlay" onClick={() => setIsModalOpen(false)}>
-          <div className="cv-modal-content cv-modal-large" onClick={e => e.stopPropagation()}>
-            <button className="cv-modal-close" onClick={() => setIsModalOpen(false)}>✕</button>
-
-            <div className="cv-modal-header">
-              <h2>Select a Document</h2>
-            </div>
-
-            <div className="cv-modal-body side-by-side">
-              <div className="cv-column">
-                <h3>Resume</h3>
-                <iframe src={`${base}assets/Haseeb_Ahmed_Resume.pdf`} className="cv-preview" title="Resume Preview"></iframe>
-                <a href={`${base}assets/Haseeb_Ahmed_Resume.pdf`} download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download Resume</a>
-              </div>
-              <div className="cv-column">
-                <h3>Europass CV</h3>
-                <iframe src={`${base}assets/Haseeb_Ahmed_Europass_CV_1.pdf`} className="cv-preview" title="CV Preview"></iframe>
-                <a href={`${base}assets/Haseeb_Ahmed_Europass_CV_1.pdf`} download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download CV</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-    </section>
+      </section>
   )
 }
