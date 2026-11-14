@@ -11,7 +11,7 @@
 
 ## 🌟 Key Features
 
-- **🤖 Integrated AI Assistant**: Real-time conversational chatbot powered by an `n8n` workflow webhook and custom UI overlay.
+
 - **🎯 Dynamic ScrollSpy Navbar**: Section tracking via native `IntersectionObserver` API.
 - **✨ Luxury Dark Design**: Custom CSS theme featuring dark surface tones (`#050505`), warm cream accents (`#D6C7B2`), backdrop blur glassmorphism, and a animated SVG film-grain overlay.
 - **📱 Fully Responsive**: Tailored grid & flexbox layouts optimized across desktop, tablet, and mobile screens.
@@ -40,7 +40,7 @@ Portfolio/
 └── src/
     ├── App.jsx             # Main container & ScrollSpy observer
     ├── main.jsx            # Application entry point
-    ├── components/         # Section UI components (Hero, About, Projects, ChatBot, etc.)
+    ├── components/         # Section UI components (Hero, About, Projects, Contact, etc.)
     ├── data/               # Project, skill, and timeline metadata
     ├── hooks/              # Custom hooks (useInView)
     └── styles/             # Modular CSS design system files

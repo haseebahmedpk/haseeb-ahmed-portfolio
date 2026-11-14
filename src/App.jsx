@@ -10,7 +10,7 @@ import Achievements from './components/Achievements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
-import ChatBot from './components/ChatBot'
+
 import BackgroundAnimation from './components/BackgroundAnimation'
 
 const NAV_LINKS = ['Home', 'About', 'Experience', 'Achievements', 'Skills', 'Projects', 'Services', 'Contact']
@@ -57,7 +57,7 @@ export default function App() {
       </main>
       <Footer />
       <ScrollToTop />
-      <ChatBot />
+
     </>
   )
 }
