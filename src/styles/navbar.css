@@ -14,7 +14,7 @@
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-bottom: 1px solid var(--border);
   padding: 0.9rem 2rem;
-  box-shadow: 0 1px 0 rgba(255,255,255,0.04), 0 8px 40px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04), 0 8px 40px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-inner {
@@ -38,7 +38,9 @@
   transition: opacity 0.3s ease;
 }
 
-.navbar-logo:hover { opacity: 1; }
+.navbar-logo:hover {
+  opacity: 1;
+}
 
 .navbar-logo .bracket {
   color: var(--accent);
@@ -125,7 +127,7 @@
 .hamburger:hover {
   border-color: var(--border-hover);
   color: var(--cream);
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 /* Mobile menu */
@@ -164,10 +166,15 @@
 .mobile-nav-link:hover,
 .mobile-nav-link.active {
   color: var(--cream);
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 @media (max-width: 768px) {
-  .navbar-links { display: none; }
-  .hamburger { display: flex; }
+  .navbar-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }

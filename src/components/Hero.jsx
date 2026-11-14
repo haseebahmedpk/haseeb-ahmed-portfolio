@@ -79,6 +79,7 @@ function TypeWriter({ words }) {
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const base = import.meta.env.BASE_URL
 
   return (
     <section id="home" className="hero">
@@ -141,7 +142,7 @@ export default function Hero() {
               <div className="avatar-ring-outer" />
               <div className="avatar-circle">
                 <img
-                  src="/assets/profile.png"
+                  src={`${base}assets/profile.png`}
                   alt="Haseeb Ahmed — Full Stack Developer"
                   loading="eager"
                   decoding="async"
@@ -179,13 +180,13 @@ export default function Hero() {
             <div className="cv-modal-body side-by-side">
               <div className="cv-column">
                 <h3>Resume</h3>
-                <iframe src="/assets/Haseeb_Ahmed_Resume.pdf" className="cv-preview" title="Resume Preview"></iframe>
-                <a href="/assets/Haseeb_Ahmed_Resume.pdf" download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download Resume</a>
+                <iframe src={`${base}assets/Haseeb_Ahmed_Resume.pdf`} className="cv-preview" title="Resume Preview"></iframe>
+                <a href={`${base}assets/Haseeb_Ahmed_Resume.pdf`} download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download Resume</a>
               </div>
               <div className="cv-column">
                 <h3>Europass CV</h3>
-                <iframe src="/assets/Haseeb_Ahmed_Europass_CV_1.pdf" className="cv-preview" title="CV Preview"></iframe>
-                <a href="/assets/Haseeb_Ahmed_Europass_CV_1.pdf" download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download CV</a>
+                <iframe src={`${base}assets/Haseeb_Ahmed_Europass_CV_1.pdf`} className="cv-preview" title="CV Preview"></iframe>
+                <a href={`${base}assets/Haseeb_Ahmed_Europass_CV_1.pdf`} download className="btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '1rem' }}>Download CV</a>
               </div>
             </div>
           </div>

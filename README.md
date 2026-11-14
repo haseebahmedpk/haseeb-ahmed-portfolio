@@ -84,7 +84,7 @@ Portfolio/
 
 - **GitHub**: [@haseebahmedpk](https://github.com/haseebahmedpk)
 - **LinkedIn**: [Haseeb Ahmed](https://www.linkedin.com/in/haseeb-ahmed)
-- **Portfolio**: [haseebahmedpk.github.io/haseeb-ahmed-portfolio](https://github.com/haseebahmedpk/haseeb-ahmed-portfolio)
+- **Portfolio**: [haseebahmedpk.github.io/haseeb-ahmed-portfolio](https://haseebahmedpk.github.io/haseeb-ahmed-portfolio/)
 
 ---
 

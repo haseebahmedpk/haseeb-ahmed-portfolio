@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://haseebahmedpk.github.io/haseeb-ahmed-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
