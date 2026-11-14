@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 
 const EXPERIENCES = [
   {
-    role: 'Full Stack Developer & Team Lead',
+    role: 'Full Stack Developer & Intern Lead',
     company: 'AnchorLogic.Net',
     type: 'Contract',
     duration: 'June 23, 2026 — Present',
